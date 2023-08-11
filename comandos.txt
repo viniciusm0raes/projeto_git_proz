@@ -25,3 +25,5 @@ git push - Enviar commits do nosso repositório local ao repositório remoto
 git remote show origin - Verifica se nosso repositório local está atualizado com o repositório remoto
 
 git pull - Atualiza nosso repositório local com as últimas informações no repositório remoto
+
+git pull https://github.com/nomedousuario/nomedorepositorio.git.git NomedaBranch - para conectar com o repositório clonado e atualizar o repositório local
