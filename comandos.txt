@@ -1,0 +1,23 @@
+git init
+git config user.name "nome do usuário"
+git config user.email "email do usuário"
+git add -A
+git commit -m "Arquivo aula_git.txt criado"
+git add -A
+git commit -m "Arquivo comandos.txt criado"
+Criar nova branch
+git branch nova_branch
+
+Mudar para nova branch
+git checkout nova_branch
+
+Puchar as alterações de outra branch
+#git merge NOME DA BRANCH que tem os arquivos alterados
+git merge nova_branch
+
+Criação de novo repositório
+git remote add origin https://github.com/nomedousuario/nomedorepositorio.git
+git branch -M main
+git push -u origin main
+
+git push - Enviar commits do nosso repositório local ao repositório remoto
