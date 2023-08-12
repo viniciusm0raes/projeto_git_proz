@@ -15,6 +15,19 @@ Puchar as alterações de outra branch
 #git merge NOME DA BRANCH que tem os arquivos alterados
 git merge nova_branch
 
+--------------------------------------------------------------
+
+Clonar repositório
+via https
+git clone <endereço do repositório que será clonado>
+
+ou
+
+via github cli
+gh repo clone <endereço do repositório que será clonado>
+
+--------------------------------------------------------------
+
 Criação de novo repositório
 git remote add origin https://github.com/nomedousuario/nomedorepositorio.git
 git branch -M main
