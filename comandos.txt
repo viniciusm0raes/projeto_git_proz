@@ -20,13 +20,16 @@ git remote add origin https://github.com/nomedousuario/nomedorepositorio.git
 git branch -M main
 git push -u origin main
 
-git push - Enviar commits do nosso repositório local ao repositório remoto
+git push - Enviar commits do nosso repositório local ao repositório remoto.
 
 git remote show origin - Verifica se nosso repositório local está atualizado
-com o repositório remoto
+com o repositório remoto.
 
 git pull - Atualiza nosso repositório local com as últimas informações no
-repositório remoto
+repositório remoto.
 
 git pull https://github.com/nomedousuario/nomedorepositorio.git.git NomedaBranch - para
-conectar com o repositório clonado e atualizar o repositório local
+conectar com o repositório clonado e atualizar o repositório local.
+
+git merge - Primeiro ir para a branch que deve RECEBER as atualizações via
+git checkout NOME-DA-BRANCH e executar o git merge.
