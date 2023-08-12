@@ -32,4 +32,4 @@ git pull https://github.com/nomedousuario/nomedorepositorio.git.git NomedaBranch
 conectar com o repositório clonado e atualizar o repositório local.
 
 git merge - Primeiro ir para a branch que deve RECEBER as atualizações via
-git checkout NOME-DA-BRANCH e executar o git merge.
+git checkout NOME-DA-BRANCH e executar o git merge NOME-DA-BRANCH-COM-AS-ATUALIZACOES.
