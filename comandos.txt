@@ -1,6 +1,12 @@
 git init
+para configuração de acesso específico
 git config user.name "nome do usuário"
 git config user.email "email do usuário"
+
+para configuração de acesso global
+git config --global user.name "nome do usuário"
+git config --global user.email "email do usuário"
+
 git add -A
 git commit -m "Arquivo aula_git.txt criado"
 git add -A
@@ -14,6 +20,9 @@ git checkout nova_branch
 Puchar as alterações de outra branch
 #git merge NOME DA BRANCH que tem os arquivos alterados
 git merge nova_branch
+
+é possível aninhar os comandos separando estes por ;
+Ex.: git branch nova_branch; git checkout nova_branch
 
 --------------------------------------------------------------
 
@@ -46,3 +55,15 @@ conectar com o repositório clonado e atualizar o repositório local.
 
 git merge - Primeiro ir para a branch que deve RECEBER as atualizações via
 git checkout NOME-DA-BRANCH e executar o git merge NOME-DA-BRANCH-COM-AS-ATUALIZACOES.
+
+
+-----------------------------------------------------------------------------------------------------
+Conectar com o repositório criado e enviar arquivos
+
+git remote add origin https://github.com/nomedousuario/nomedorepositorio.git
+git branch -M main
+git push -u origin main
+
+-----------------------------------------------------------------------------------------------------
+para ver as configurações do usuário, dentre outras informações
+git config --list
